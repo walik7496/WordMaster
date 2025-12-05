@@ -8,10 +8,10 @@ ENG_FILE = "eng.txt"
 RUS_FILE = "rus.txt"
 DATA_FILE = "words_data.json"
 
-SESSION_NEW = 15       # нових слів за день
-SESSION_TOTAL = 50     # загальна кількість слів за день
-HARD_WEIGHT = 2        # важкі слова показуються частіше
-TOP_HARD = 10          # топ важких слів у кінці сесії
+SESSION_NEW = 15
+SESSION_TOTAL = 50
+HARD_WEIGHT = 2
+TOP_HARD = 10
 
 # ---------------- COLORS ----------------
 GREEN = "\033[92m"
