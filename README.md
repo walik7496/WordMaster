@@ -40,6 +40,8 @@ Edit these values directly in `wordmaster.py`:
 SESSION_WORDS = 10    # number of words per session AND in JSON
 MAX_SCORE = 5         # score required to fully learn a word
 HARD_THRESHOLD = 3   # mistakes before a word becomes "hard"
+```
+
 ▶️ How to Run
 
 Install Python 3
