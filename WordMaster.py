@@ -134,3 +134,4 @@ if not words_data:
     print("\nSession completed! Loading new words next time.")
 
 print(f"\nSession finished. Questions today: {questions_today}")
+input("\nPress Enter to continue...")
