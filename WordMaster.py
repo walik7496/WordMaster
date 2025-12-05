@@ -2,6 +2,9 @@ import json
 import random
 import os
 
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 # -------------------- SETTINGS --------------------
 ENG_FILE = "eng.txt"
 RUS_FILE = "rus.txt"
@@ -76,6 +79,7 @@ def choose_word():
 questions_today = 0
 
 while words_data and questions_today < SESSION_WORDS:
+    clear()
     eng = choose_word()
     rus = words_data[eng]["rus"]
 
@@ -114,7 +118,8 @@ while words_data and questions_today < SESSION_WORDS:
         words_data[eng]["mistakes"] += 1
         if words_data[eng]["mistakes"] >= HARD_THRESHOLD:
             hard_words.add(eng)
-
+    
+    input("\nPress Enter to continue...")
     questions_today += 1
 
     with open(SAVE_FILE, "w", encoding="utf-8") as f:
