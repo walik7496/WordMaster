@@ -11,8 +11,8 @@ RUS_FILE = "rus.txt"
 SAVE_FILE = "words_to_learn.json"
 HARD_FILE = "hard_words.txt"
 
-SESSION_WORDS = 10     # 🔥 how many words per session AND in JSON
-MAX_SCORE = 5
+SESSION_WORDS = 20     # 🔥 how many words per session AND in JSON
+MAX_SCORE = 20
 HARD_THRESHOLD = 3
 
 # -------------------- LOAD MAIN DICTIONARIES --------------------
