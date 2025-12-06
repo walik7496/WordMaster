@@ -150,6 +150,7 @@ def main():
     show_progress(data)
     show_top_hard(data)
     print("\n✅ Session finished.")
+    input("\nPress Enter to continue...")
 
 # ---------------- RUN ----------------
 if __name__ == "__main__":
